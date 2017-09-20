@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutYou {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
