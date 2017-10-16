@@ -11,6 +11,15 @@ class Person extends Component {
           <li>
             {this.props.data.email}
           </li>
+          <li>
+            {this.props.data.city}
+          </li>
+          <li>
+            {this.props.data.state}
+          </li>
+          <li>
+            {this.props.data.country}
+          </li>
         </ul>
       </div>
     )
